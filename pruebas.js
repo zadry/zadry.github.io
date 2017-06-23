@@ -72,7 +72,7 @@ new (function() {
 		
 		navigator.bluetooth.requestDevice({
                 filters: [{
-                 name: 'javvPhon'
+                 name: 'javvPhone'
                }],
                optionalServices: ['battery_service']
                  })
