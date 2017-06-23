@@ -70,13 +70,13 @@ new (function() {
 	}
 	ext.bluetoothConn = function(){
 		navigator.bluetooth.requestDevice({
-  filters: [{
-    name: 'javvPhon'
-  }],
-  optionalServices: ['battery_service']
-})
-.then(device => { /* ... */ })
-.catch(error => { console.log(error); });
+                filters: [{
+                 name: 'javvPhon'
+               }],
+               optionalServices: ['battery_service']
+                 })
+               .then(device => { /* ... */ })
+               .catch(error => { console.log(error); });
 	}
     // Block and block menu descriptions
     var descriptor = {
