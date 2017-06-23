@@ -68,7 +68,8 @@ new (function() {
 		str = str + " Izquierda "+distancia+" grados";
 		
 	}
-	ext.bluetoothConn = function(){
+	ext.bluetoothConn = function(event){
+		
 		navigator.bluetooth.requestDevice({
                 filters: [{
                  name: 'javvPhon'
@@ -92,7 +93,7 @@ new (function() {
 			[' ', 'Avanzar %n metros', 'avanzar','distancia'],
 			[' ', 'Derecha %n grados', 'derecha','grados'],
 			[' ', 'Izquierda %n grados', 'izquierda','grados'],
-		        ['h', 'Coneccion BlueTooth', 'bluetoothConn']
+		        ['e', 'Coneccion BlueTooth', 'bluetoothConn']
 			
 			
         ]
