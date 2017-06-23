@@ -68,6 +68,16 @@ new (function() {
 		str = str + " Izquierda "+distancia+" grados";
 		
 	}
+	ext.bluetoothConn = function(){
+		navigator.bluetooth.requestDevice({
+  filters: [{
+    name: 'javvPhon'
+  }],
+  optionalServices: ['battery_service']
+})
+.then(device => { /* ... */ })
+.catch(error => { console.log(error); });
+	}
     // Block and block menu descriptions
     var descriptor = {
         blocks: [
@@ -80,7 +90,8 @@ new (function() {
 			['r', 'Consultar estado','estado'],
 			[' ', 'Avanzar %n metros', 'avanzar','distancia'],
 			[' ', 'Derecha %n grados', 'derecha','grados'],
-			[' ', 'Izquierda %n grados', 'izquierda','grados']
+			[' ', 'Izquierda %n grados', 'izquierda','grados'],
+		        [' ', 'Coneccion BlueTooth', 'bluetoothConn']
 			
 			
         ]
