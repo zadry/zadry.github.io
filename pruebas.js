@@ -77,6 +77,7 @@ new (function() {
                  })
                .then(device => { /* ... */ })
                .catch(error => { console.log(error); });
+		return true;
 	}
     // Block and block menu descriptions
     var descriptor = {
@@ -91,7 +92,7 @@ new (function() {
 			[' ', 'Avanzar %n metros', 'avanzar','distancia'],
 			[' ', 'Derecha %n grados', 'derecha','grados'],
 			[' ', 'Izquierda %n grados', 'izquierda','grados'],
-		        [' ', 'Coneccion BlueTooth', 'bluetoothConn']
+		        ['h', 'Coneccion BlueTooth', 'bluetoothConn']
 			
 			
         ]
