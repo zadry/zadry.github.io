@@ -93,7 +93,7 @@ new (function() {
 			[' ', 'Avanzar %n metros', 'avanzar','distancia'],
 			[' ', 'Derecha %n grados', 'derecha','grados'],
 			[' ', 'Izquierda %n grados', 'izquierda','grados'],
-		        ['e', 'Coneccion BlueTooth %e', 'bluetoothConn','event']
+		        ['h', 'Coneccion BlueTooth', 'bluetoothConn']
 			
 			
         ]
