@@ -1,0 +1,352 @@
+/* CSS Document */
+* {
+    box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	
+	
+	
+}
+section {
+	
+}
+#cielo{
+	top:0px;
+	position: absolute;
+	/*background-color: #1A629E;*/
+   /* For browsers that do not support gradients */
+  /*  background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+ /*   background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+ /*   background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+
+	
+	
+	width: 100%;
+height: 400px ;
+}
+#nube1 {
+	border:solid;
+	border-color: black;
+	position: absolute;
+	width: 320px;
+	height: 40px;
+	top:290px;
+	left: 580px;
+	background-color: #D0D0D0;
+	border-radius: 40%;
+	
+}
+#nube2 {
+	border:solid;
+	border-color: black;
+	position: 	absolute;
+	width: 220px;
+	height: 60px;
+	top:100px;
+	left: 220px;
+	background-color: #D0D0D0;
+	border-radius: 40%;
+	
+}
+#nube3 {
+	border:solid;
+	border-color: black;
+	position: 	absolute;
+	width: 220px;
+	height: 60px;
+	top:150px;
+	left: 820px;
+	background-color: #D0D0D0;
+	border-radius: 40%;
+	
+	
+}
+#suelo{
+	position: absolute;
+	background: linear-gradient(#B45F04,#3B240B);;	
+	width: 100%;
+	height: 700px;
+	top:400px;
+}
+#horizonte {
+	
+}
+#montanaContent{
+	
+	width:500px;
+	height: 400px;
+	left: 750px;
+	bottom: 250px;
+	position: absolute;
+}
+#montana{
+	border:solid;
+	border-color: black;
+	width:250px;
+	botton:150px;
+	height: 300px;
+	background: linear-gradient(#8A4B08,#3B240B);
+	top: 200px;
+	transform: skew(-20deg);
+    border-radius: 0 0 100% 0px;
+	transform: rotate(45deg);
+	top:350px;
+	left:150px;
+	
+}
+#montanaContent2{
+	
+	width:500px;
+	height: 400px;
+	left: 950px;
+	bottom: 250px;
+	position: absolute;
+}
+#montana2{
+	border:solid;
+	border-top-color: black;
+	width:250px;
+	botton:150px;
+	height: 300px;
+	background: linear-gradient(#8A4B08,#3B240B);
+	top: 200px;
+	transform: skew(-20deg);
+    border-radius: 0 0 100% 0px;
+	transform: rotate(45deg);
+	top:350px;
+	left:150px; 
+}
+#arbol {
+	border:solid;
+	border-color: black;
+	position: absolute;
+ 	width: 150px;
+	height: 550px;
+	background-color: brown; 
+	transform: rotate(15deg);
+	top:500px;
+	left:100px;
+}
+#hojas1 {
+	border:solid;
+	border-color: black;
+	position: absolute;
+	background-color: green;
+	width: 550px;
+	height: 300px;
+	top: 300px;
+	border-radius: 40%;
+}
+#rama{
+border:solid;
+	border-color: black;
+	position: absolute;
+	width: 200px;
+	height: 15px;
+	transform: rotate(-20deg);
+	background-color: #A45200;
+	top: 650px;
+	left:250px;
+}
+#hojas2 {
+	border:solid;
+	border-color: black;
+	position: absolute;
+	width: 250px;
+	height: 110px;
+	border-radius: 40%;
+	background-color: #04B433;
+	top: 520px;
+	left:350px;
+}
+#sol {
+	border:solid;
+	border-top-color: black;
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background-color: #FF3333;
+	top:300px;
+	left:500px;
+}
+/*Contenedor para arbolitos que se repetiran mucho*/
+#arbolito{
+	position: absolute;
+	width: 50px ;
+	height:100px;
+	
+	
+	top:425px;
+	left:710px;
+}
+#tronco {
+	border:solid;
+	border-color: black;
+	background-color: #321A00;
+	position: relative;
+	width: 20px;
+	height: 40px;
+	left: 15px;
+	top:50px;
+}
+#follaje1 {
+	border:solid;
+	border-color: black;
+	background-color: #006805;
+	position: relative;
+	width: 50px;
+	height: 50px;
+    top:-35px;
+	transform: rotate(45deg);
+	border-radius: 0 0 100% 0px;
+}
+#follaje2 {
+	border:solid;
+	border-color: black;
+	background-color: #006805;
+	position: relative;
+	width: 50px;
+	height: 50px;
+    top:-60px;
+	transform: rotate(45deg);
+	border-radius: 0 0 100% 0px;
+}
+#arbolito2{
+	position: absolute;
+	width: 50px ;
+	height:120px;
+	
+	
+	top:425px;
+	left:760px;
+}
+#troncoA {
+	border:solid;
+	border-color: black;
+	background-color: #321A00;
+	position: relative;
+	width: 20px;
+	height: 40px;
+	left: 15px;
+	top:50px;
+}
+#follaje1A {
+	border:solid;
+	border-color: black;
+	background-color: #006805;
+	position: relative;
+	width: 50px;
+	height: 50px;
+    top:-35px;
+	transform: rotate(45deg);
+	border-radius: 0 0 100% 0px;
+}
+#follaje2A {
+	border:solid;
+	border-color: black;
+	background-color: #006805;
+	position: relative;
+	width: 50px;
+	height: 50px;
+    top:-60px;
+	transform: rotate(45deg);
+	border-radius: 0 0 100% 0px;
+}
+#arbolito3{
+	position: absolute;
+	width: 50px ;
+	height:120px;
+	
+	
+	top:455px;
+	left:800px;
+}
+#troncoB {
+	border: solid;
+	border-color: black;
+	background-color: #321A00;
+	position: relative;
+	width: 20px;
+	height: 40px;
+	left: 15px;
+	top:50px;
+}
+#follaje1B {
+	border: solid;
+	border-color: black;
+	background-color: #006805;
+	position: relative;
+	width: 50px;
+	height: 50px;
+    top:-35px;
+	transform: rotate(45deg);
+	border-radius: 0 0 100% 0px;
+}
+#follaje2B {
+	border: solid;
+	border-color: black;
+	background-color: #006805;
+	position: relative;
+	width: 50px;
+	height: 50px;
+    top:-60px;
+	transform: rotate(45deg);
+	border-radius: 0 0 100% 0px;
+}
+#arbolito4{
+	position: absolute;
+	width: 50px ;
+	height:120px;
+	
+	
+	top:485px;
+	left:850px;
+}
+#troncoC {
+	border: solid;
+	border-color: black;
+	background-color: #321A00;
+	position: relative;
+	width: 20px;
+	height: 40px;
+	left: 15px;
+	top:50px;
+}
+#follaje1C {
+	border: solid;
+	border-color: black;
+	background-color: #006805;
+	position: relative;
+	width: 50px;
+	height: 50px;
+    top:-35px;
+	transform: rotate(45deg);
+	border-radius: 0 0 100% 0px;
+}
+#follaje2C {
+	border: solid;
+	border-color: black;
+	background-color: #006805;
+	position: relative;
+	width: 50px;
+	height: 50px;
+    top:-60px;
+	transform: rotate(45deg);
+	border-radius: 0 0 100% 0px;
+}
+#camino {
+	
+	position: absolute;
+	transform: rotate(-45deg);
+	top:150px;
+	left:800px;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 1200px solid #DBA901;
+}
