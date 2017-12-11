@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sistema de venta</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        
+        <script src="js/cliente.js"></script>
+    </head>
+    <body>
+        
+        <header>
+            <div id="logo"> <img src="../img/logo.png" alt="logo" width="150" height="150">
+            </div>
+            <div id="titulo"><h1>Cafeteria</h1>
+                <h2>Sistema de ventas</h2></div>
+            
+        </header>
+        <div id="relleno1"></div>
+        <section>
+            <div class="vertical-menu">
+                
+                <a href="cliente.html">Registar cliente</a>
+                <a href="pedido.html">Registrar pedido</a>
+                <a href="reportes.html">Consultas</a>
+                
+            </div>
+            <div id="contenedor">
+                <div id="info">
+                    
+                    <h1>Registrar Clientes</h1>
+                    <form id="form" name="clienteinfo" method="POST">
+                        <br> Nombre:<br>
+                        <input type="text" name="nombre" id="nom" required pattern="[A-Za-z]+" title="El campo fue llenado inapropiadamente"><br>
+                        <br>Apellido Paterno:<br>
+                        <input type="text" name="apeP" id="apellidoP" required pattern="[A-Za-z]+" title="El campo fue llenado inapropiadamente"><br>
+                        <br>Apellido Materno:<br>
+                        <input type="text" name="apeM" id="apellidoM" required pattern="[A-Za-z]+" title="El campo fue llenado inapropiadamente"><br>
+                        <br>Edad:<br>
+                        <input type="number" name="edad" id="age" required min="1" max="120"><br>
+                        <br>Genero:<br>
+                        <input type="radio" name="gender" id="gender1" value="M" checked> M<br>
+                        <input type="radio" name="gender" id="gender2" value="F"> F<br>
+                        <br>Telefono:<br>
+                        <input type="number" name="telefono" id="tel" pattern="[1-9]{10}" required ><br>
+                        <br>E-Mail:<br>
+                        <br><input type="email" name="mail" id="correo" required><br>
+                        
+                        
+                        
+                        <br>
+                        <input type="button" id="send" value="Registrar Cliente">
+                    </form>
+                    
+                </div>
+            </div>
+        </section>
+        <div id="dialog-message" title="Aviso">
+            <p>
+                <span class="ui-icon ui-icon-circle-check" style="float:left; margin:0 7px 50px 0;"></span>
+                Cliente registrado exitosamente
+            </p>
+            <div id="cambioInfo"></div>
+        </div>
+    </body>
+</html>

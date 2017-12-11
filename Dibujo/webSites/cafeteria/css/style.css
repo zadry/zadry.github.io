@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 6, 2017, 10:24:37 AM
+    Author     : Javier Monroy Salcedo
+*/
+@font-face {
+    font-family: titleFont;
+    src: url(Sanford-0103_demo.ttf);
+}
+body{
+    padding-left: 5%;
+   /* background-color: #F7F8E0;*/
+    background-image: url("../..//img/school.png");
+}
+header{
+    background-color: #F2F2F2;
+    width: 90%;
+    height: 250%;
+    
+    padding: 3px;
+    /* box-shadow: 1px 10px #888888;*/
+    box-shadow:  1em 0 .8em #888888;
+    border-radius: 15px;
+}
+h1{
+    align-content:center;
+    font-family: titleFont;
+    font-variant: small-caps;
+}
+nav{
+    width: 90%;
+    height: 90px;
+    padding: 3px;
+    box-shadow:  1em 0 .8em #888888
+}
+#logo{
+    float:left;
+}
+
+section{
+    width: 90%;
+    height: 90%px;
+    /*padding-left: 200px; */
+    
+}
+#relleno1{
+    width: 100%;
+    height: 50px;
+}
+aside{
+    width: 15%;
+    height: 500px;
+    float:left;
+    padding: 3px;
+    box-shadow:  1em 0 .8em #888888;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    
+}
+.vertical-menu {
+    width: 200px;
+    height: 150px;
+    float:left;
+    padding: 3px;
+    box-shadow:  1em 0 .8em #888888;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    font-variant: small-caps;
+}
+
+.vertical-menu a:hover {
+    border-radius: 15px;
+    background-color: #555;
+    color: white;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#info{
+    width: 50%;
+    height: auto;
+    /*float:left;*/
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    box-shadow:  1em 0 .8em #888888;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    margin: auto;
+    
+    
+}
+#contenedor{
+    float:left;
+    width: 80%;
+    height: 100%;
+    
+}
+#tableConteiner{
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+}
+
+#info2{
+    width: 80%;
+    height: auto;
+    /*float:left;*/
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    box-shadow:  1em 0 .8em #888888;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    margin: auto;
+    
+    
+}
+#tableProducto{
+    width: 90%;
+    
+}
+#pedidos{
+    width:95%;
+}
+#pedidoDetalle{
+    width:95%;
+}

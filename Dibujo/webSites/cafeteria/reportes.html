@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+Creado por Javier Monroy Salcedo
+
+-->
+<html>
+    <head>
+        <title>Reporte de ventas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/reportes.js"></script>
+        
+    </head>
+    
+    <body>
+        
+        <header>
+            <div id="logo"> <img src="../img/logo.png" alt="logo" width="150" height="150">
+            </div>
+            <div id="titulo"><h1>Cafeteria</h1>
+                <h2>Sistema de ventas</h2></div>
+            
+        </header>
+        <div id="relleno1"></div>
+        <section>
+            <div class="vertical-menu">
+                
+                <a href="cliente.html">Registar cliente</a>
+                <a href="pedido.html">Registrar pedido</a>
+                <a href="reportes.html">Consultas</a>
+                
+            </div>
+            <div id="contenedor">
+                <div id="info2">
+                    <div><h1>Reporte de ventas</h1></div><br><br>
+                    
+                    <div><h2 id="total"></h2></div>
+                    
+                    <div>   
+                        <input type="button" id="verDetalle" value="Ver detalle">
+                        <div id="tableConteiner">
+                            <table id="pedidos">
+                                <tr >
+                                    <td>ID Pedido </td><td>ID CLIENTE</td><td>NOMBRE</td><td> </td><td></td><td>FECHA</td>
+                                    
+                                </tr>
+                                
+                            </table>
+                            
+                            
+                        </div>
+                    </div>
+                    <h2 id="detalles"></h2>
+                    <div id="datosCliente"></div>
+                    <div id="totalPorPedido"></div>
+                    <div id="pedidoDet"> </div>
+                    
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
