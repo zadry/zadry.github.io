@@ -42,7 +42,7 @@ function enviar(e){
         console.log(nom+aP+aM+ed+genero+tel+correo);
         
         $.ajax({
-            url: "../logica/Main.php",
+            url: "https://javvmonroy.000webhostapp.com/logica/Main.php",
             type: "POST",
             data: { option: "insertCliente", datos: {nombre: nom,apeP:aP,apeM:aM,edad:ed,gender:genero,telefono:tel,mail:correo}}
         }).done(function(respu){
@@ -76,7 +76,7 @@ function sendData(){
     alert("entro qui");$("#clienteInfo").submit(function(e){
     
         $.ajax({
-            url: "../logica/Main.php",
+            url: "https://javvmonroy.000webhostapp.com/logica/Main.php",
             type: "POST",
             //data: { option: "clientes", datos: "null"}
         }).done(function(respu){
