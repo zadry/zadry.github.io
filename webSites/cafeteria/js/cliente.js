@@ -44,7 +44,6 @@ function enviar(e){
         $.ajax({
             url: "https://javvmonroy.000webhostapp.com/logica/Main.php",
             type: "POST",
-             
             data: { option: "insertCliente", datos: {nombre: nom,apeP:aP,apeM:aM,edad:ed,gender:genero,telefono:tel,mail:correo}}
         }).done(function(respu){
             console.log("respuesta: "+respu);
